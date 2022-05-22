@@ -1,0 +1,16 @@
+May 22 08:53:28.153 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 22 08:53:28.153 HYPERVISOR: Started on IP = localhost, TCP port = 52189.
+May 22 08:53:28.639 HYPERVISOR: exec_cmd: hypervisor version 
+May 22 08:53:28.639 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\mertf\GNS3\projects\mert\project-files\dynamips 
+May 22 08:53:28.639 GENERAL: working_dir=C:\Users\mertf\GNS3\projects\mert\project-files\dynamips
+May 22 08:53:28.639 HYPERVISOR: exec_cmd: nio_bridge create Hub1 
+May 22 08:53:30.753 HYPERVISOR: exec_cmd: nio create_udp udp-b2b5f693-c0c5-457d-9240-80405144e359 10009 127.0.0.1 10008 
+May 22 08:53:30.753 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-b2b5f693-c0c5-457d-9240-80405144e359 
+May 22 08:53:30.809 HYPERVISOR: exec_cmd: nio create_udp udp-44250abe-ea9c-489e-9282-154c05ab1190 10011 127.0.0.1 10010 
+May 22 08:53:30.809 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-44250abe-ea9c-489e-9282-154c05ab1190 
+May 22 08:53:33.311 HYPERVISOR: exec_cmd: nio create_udp udp-32e09bd3-c1ff-4c7c-a81b-58921cd16f42 10076 127.0.0.1 10077 
+May 22 08:53:33.312 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-32e09bd3-c1ff-4c7c-a81b-58921cd16f42 
+May 22 11:29:37.889 HYPERVISOR: exec_cmd: nio_bridge delete Hub1 
+May 22 11:29:37.963 HYPERVISOR: exec_cmd: hypervisor stop 
+May 22 11:29:38.334 HYPERVISOR: Stopped.
+May 22 11:29:38.335 GENERAL: reset done.
