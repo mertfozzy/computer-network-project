@@ -950,9 +950,10 @@
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet3",
                             "port_number": 3,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
@@ -1543,6 +1544,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.31",
+    "version": "2.2.32",
     "zoom": 84
 }
