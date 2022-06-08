@@ -1,0 +1,26 @@
+Jun 08 12:21:17.612 HYPERVISOR: Release 0.2.22-amd64/Linux (tag 2022052400)
+Jun 08 12:21:17.612 HYPERVISOR: Started on IP = localhost, TCP port = 48249.
+Jun 08 12:21:17.619 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 08 12:21:17.620 HYPERVISOR: exec_cmd: hypervisor working_dir /home/mert/Desktop/computer-network-project/mert/project-files/dynamips 
+Jun 08 12:21:17.620 GENERAL: working_dir=/home/mert/Desktop/computer-network-project/mert/project-files/dynamips
+Jun 08 12:21:17.620 HYPERVISOR: exec_cmd: hypervisor working_dir /home/mert/Desktop/computer-network-project/mert/project-files/dynamips/0f601634-ca93-40e9-86f2-47f454d5302d 
+Jun 08 12:21:17.620 GENERAL: working_dir=/home/mert/Desktop/computer-network-project/mert/project-files/dynamips/0f601634-ca93-40e9-86f2-47f454d5302d
+Jun 08 12:21:17.620 HYPERVISOR: exec_cmd: vm create R1 1 c3600 
+Jun 08 12:21:17.620 VM: VM R1 created.
+Jun 08 12:21:17.620 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jun 08 12:21:17.620 HYPERVISOR: exec_cmd: c3600 get_mac_addr R1 
+Jun 08 12:21:17.621 HYPERVISOR: exec_cmd: vm set_ios R1 /home/mert/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Jun 08 12:21:17.621 HYPERVISOR: exec_cmd: c3600 set_mac_addr R1 cc01.090c.0000 
+Jun 08 12:21:17.621 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jun 08 12:21:17.621 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Jun 08 12:21:17.621 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 08 12:21:17.622 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 NM-4E 
+Jun 08 12:21:20.057 HYPERVISOR: exec_cmd: nio create_udp udp-767adc61-c3b5-4223-baad-0fc5ebaeb907 10064 127.0.0.1 10065 
+Jun 08 12:21:20.273 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-767adc61-c3b5-4223-baad-0fc5ebaeb907 
+Jun 08 12:21:20.273 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 08 12:21:20.339 HYPERVISOR: exec_cmd: nio create_udp udp-a3266b38-2d1d-4dac-ae1a-3c6ae5a59f49 10070 127.0.0.1 10071 
+Jun 08 12:21:20.340 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-a3266b38-2d1d-4dac-ae1a-3c6ae5a59f49 
+Jun 08 12:21:20.340 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 08 12:21:20.393 HYPERVISOR: exec_cmd: nio create_udp udp-94ff2e9b-f668-4577-beea-bdb0d88bd1fb 10074 127.0.0.1 10075 
+Jun 08 12:21:20.394 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 2 udp-94ff2e9b-f668-4577-beea-bdb0d88bd1fb 
+Jun 08 12:21:20.394 HYPERVISOR: exec_cmd: vm get_status R1 
